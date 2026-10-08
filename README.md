@@ -60,6 +60,7 @@ python3 -m sglang.launch_server \
   --mamba-ssm-dtype bfloat16 \
   --mamba-radix-cache-strategy extra_buffer_lazy \
   --ple-offload-embedding --ple-offload-backend pinned \
+  --reasoning-parser auto --tool-call-parser qwen3_coder \
   --mem-fraction-static 0.90 \
   --max-mamba-cache-size 96 \
   --max-running-requests 32 \
@@ -71,6 +72,9 @@ python3 -m sglang.launch_server \
 ```
 
 Notes on the non-obvious flags:
+
+- `--tool-call-parser qwen3_coder` — required for agent clients. Without it the model's
+  XML tool calls come back as plain text and the client sees no `tool_calls`.
 
 - `--moe-runner-backend flashinfer_cutlass` — required for NVFP4 on SM120; the
   auto-default (`flashinfer_trtllm`) is rejected by this model.

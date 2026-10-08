@@ -91,7 +91,8 @@ COMMON_FLAGS="--model-path $MODEL --served-model-name $SERVED \
   --mamba-ssm-dtype bfloat16 \
   --mamba-radix-cache-strategy extra_buffer_lazy \
   --ple-offload-embedding --ple-offload-backend pinned \
-  --reasoning-parser auto"
+  --reasoning-parser auto \
+  --tool-call-parser qwen3_coder"
 
 docker rm -f sglang-flashnext-tp2 >/dev/null 2>&1 || true
 
