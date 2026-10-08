@@ -1,0 +1,74 @@
+[
+ {
+  "level": 1,
+  "requests": 1,
+  "p50_per_stream_tok_s": 211.73583418164725,
+  "p05_per_stream_tok_s": 211.73583418164725,
+  "aggregate_output_tok_s": 204.5661038627266,
+  "p50_ttft_ms": 89.30452399999922,
+  "p95_ttft_ms": 89.30452399999922,
+  "p50_tpot_ms": 4.72286613111555,
+  "wall_seconds": 2.5028584420006155,
+  "file": "c1.json"
+ },
+ {
+  "level": 4,
+  "requests": 4,
+  "p50_per_stream_tok_s": 165.0874648528474,
+  "p05_per_stream_tok_s": 152.31335756395737,
+  "aggregate_output_tok_s": 545.4356649743477,
+  "p50_ttft_ms": 368.51257699981943,
+  "p95_ttft_ms": 368.9046239993331,
+  "p50_tpot_ms": 6.062857018591188,
+  "wall_seconds": 3.75479663599981,
+  "file": "c4.json"
+ },
+ {
+  "level": 8,
+  "requests": 8,
+  "p50_per_stream_tok_s": 121.91803651628578,
+  "p05_per_stream_tok_s": 118.36721531251584,
+  "aggregate_output_tok_s": 830.1838966474576,
+  "p50_ttft_ms": 599.2526049999469,
+  "p95_ttft_ms": 599.9106985002072,
+  "p50_tpot_ms": 8.202499874755855,
+  "wall_seconds": 4.933846605000326,
+  "file": "c8.json"
+ },
+ {
+  "level": 16,
+  "requests": 16,
+  "p50_per_stream_tok_s": 87.55352882369854,
+  "p05_per_stream_tok_s": 83.6302025042076,
+  "aggregate_output_tok_s": 1147.1848093670976,
+  "p50_ttft_ms": 1096.2819995002064,
+  "p95_ttft_ms": 1126.5537257502274,
+  "p50_tpot_ms": 11.421594767123363,
+  "wall_seconds": 7.140959270999701,
+  "file": "c16.json"
+ },
+ {
+  "level": 24,
+  "requests": 24,
+  "p50_per_stream_tok_s": 67.94090397919871,
+  "p05_per_stream_tok_s": 65.90785333659849,
+  "aggregate_output_tok_s": 1414.3357064210406,
+  "p50_ttft_ms": 827.2394410000743,
+  "p95_ttft_ms": 1187.067399000398,
+  "p50_tpot_ms": 14.718678031311182,
+  "wall_seconds": 8.688177738999912,
+  "file": "c24.json"
+ },
+ {
+  "level": 32,
+  "requests": 32,
+  "p50_per_stream_tok_s": 55.29976979746294,
+  "p05_per_stream_tok_s": 51.57447207547768,
+  "aggregate_output_tok_s": 1296.8733813657398,
+  "p50_ttft_ms": 1005.4213849998632,
+  "p95_ttft_ms": 1761.2781801001802,
+  "p50_tpot_ms": 18.08534620156528,
+  "wall_seconds": 12.633461551000437,
+  "file": "c32.json"
+ }
+]
